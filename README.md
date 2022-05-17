@@ -1,38 +1,41 @@
-# Potlukk: Team 2
-## Entities & Attributes
-1. Potluck
-   * Potluck_ID (serial, primary key)
-   * Date/Time (UNIX Epoch)
-   * Creator (foreign key)
-   * Is_Private (Boolean)
-   * URL
-2. Item
-   * Item_ID (serial, primary key)
-   * Description
-   * Status
-   * Supplier 
-   * Potluck_ID (foreign key)
-3. User
-   * Username (primary key)
-   * First Name
-   * Last Name
-   * Password
+# Potlukk
 
-## User Stories & Routes
+**Project Description**
+Potlukk is an app that allows registered users to create potlucks. A potluck serves as registry where guests can add items they plan on bringing. The creator of the potluck has the ability to add items, remove items and request items. Potlucks can are shareable and open to the public. Though creators have the ability to make their potlucks private.
 
-1. Create
-   * Create Potluck (POST /potlucks)
-     - Date, Time, 
-   * Registered user can add items (POST /items)
-   * Guest user can add item (POST /items)
-   * Guest can create account (POST /users)
-2. Read
-   * Guest can view potlucks (GET /potlucks)
-   * Get URL/Link to potluck (GET /potlucks/{potluck_ID})
-   * Get all items for a potluck (GET /potlucks/{potluck_ID}/items)
-3. Update
-   * registered User can update potluck date/time (PATCH /potlucks/{potluck_ID})
-   * User can update Status of Item to fulfilled (PATCH /item/{item_ID}/bringing)
-4. Delete
-   * Registered user can remove items (DELETE /items/{item_ID})
-   * Registered user can delete potluck (DELETE /potlucks/{potluck_id})
+This repository includes the back-end of the project. The front-end can be found at: https://github.com/justfitch/potlukk-frontend.
+
+**Technologies Used**
+- Back-End
+  - Java
+  - SpringBoot
+  - SpringData
+  - REST
+  - JUNIT
+- Front-End
+  - JavaScript
+  - ReactJS
+  - Bootstrap
+  - HTML
+  - CSS 
+- AWS
+  - RDS
+  - EC2
+  - Elastic Beanstalk
+  - Amplify
+- Other
+  - PostgreSQL
+  - Maven
+  - Postman
+  - DBeaver
+
+**Features**
+- PostgreSQL database deployed on AWS RDS
+- SpringBoot REST API to perform all applicable CRUD operations on user, potlukk and item entities
+- Front-end built with React/Bootstrap
+- Deployed on AWS EC2 (back-end) and Amplify (front-end)
+
+**Getting Started**
+This application is currently (5/17/2022) available online at https://main.d3i9usuhhm3chr.amplifyapp.com/.
+
+This repository can also be cloned and the application run locally in concert with the front-end React application.
