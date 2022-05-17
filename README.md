@@ -36,6 +36,7 @@ This repository includes the back-end of the project. The front-end can be found
 - Deployed on AWS EC2 (back-end) and Amplify (front-end)
 
 **Getting Started**
+
 This application is currently (5/17/2022) available online at https://main.d3i9usuhhm3chr.amplifyapp.com/.
 
 This repository can also be cloned and the application run locally in concert with the front-end React application.
