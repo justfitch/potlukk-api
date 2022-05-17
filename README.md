@@ -37,6 +37,10 @@ This repository includes the back-end of the project. The front-end can be found
 
 **Getting Started**
 
-This application is currently (5/17/2022) available online at https://main.d3i9usuhhm3chr.amplifyapp.com/.
+This application is currently (5/17/2022) available online at https://main.d3i9usuhhm3chr.amplifyapp.com/. This repository can also be cloned and the application run locally in concert with the front-end React application.
 
-This repository can also be cloned and the application run locally in concert with the front-end React application.
+**Contributors**
+- Justin Fitch
+- Ryan BeGell
+- Jonathan Langston
+- Patrick Rwamasirabo
